@@ -3,7 +3,7 @@ import requests
 import matplotlib.pyplot as plt
 import datetime as dt
 
-API_KEY = 'B2HBUBP8HW31O97S'
+API_KEY = 'YOUR OWN KEY'
 
 def get_stock_price(symbol):
     url = f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&apikey={API_KEY}'
